@@ -1,4 +1,4 @@
-import pandas as pd
+import pyspark.pandas as pd
 
 import woodwork as ww
 from woodwork.logical_types import (

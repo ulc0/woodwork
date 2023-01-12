@@ -3,7 +3,7 @@ import warnings
 import weakref
 from typing import Dict, Optional, Union
 
-import pandas as pd
+import pyspark.pandas as pd
 from pandas.api import types as pdtypes
 
 from woodwork.accessor_utils import (

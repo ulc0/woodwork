@@ -2,7 +2,7 @@ import sys
 from typing import Any, Callable, Iterable, Union
 
 import numpy as np
-import pandas as pd
+import pyspark.pandas as pd
 from importlib_resources import files
 from pandas.api import types as pdtypes
 

@@ -1,7 +1,7 @@
 from timeit import default_timer as timer
 from typing import Any, Callable, Dict, Sequence
 
-import pandas as pd
+import pyspark.pandas as pd
 
 from woodwork.accessor_utils import _is_dask_dataframe, _is_spark_dataframe
 from woodwork.logical_types import Datetime, LatLong, Unknown

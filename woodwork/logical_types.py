@@ -4,7 +4,7 @@ from datetime import datetime
 from typing import Optional
 
 import numpy as np
-import pandas as pd
+import pyspark.pandas as pd
 from pandas.api import types as pdtypes
 
 import woodwork as ww

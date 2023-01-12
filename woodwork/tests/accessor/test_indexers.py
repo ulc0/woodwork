@@ -1,4 +1,4 @@
-import pandas as pd
+import pyspark.pandas as pd
 import pytest
 
 from woodwork.accessor_utils import _is_dask_dataframe, _is_dask_series

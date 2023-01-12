@@ -1,4 +1,4 @@
-import pandas as pd
+import pyspark.pandas as pd
 
 
 def _get_histogram_values(series, bins=10):

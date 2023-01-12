@@ -3,7 +3,7 @@ import warnings
 import weakref
 from typing import Any, Callable, Dict, Iterable, List, Optional, Sequence, Set, Union
 
-import pandas as pd
+import pyspark.pandas as pd
 
 from woodwork.accessor_utils import (
     _check_table_schema,

@@ -1,6 +1,6 @@
 from unittest.mock import patch
 
-import pandas as pd
+import pyspark.pandas as pd
 import pytest
 
 import woodwork as ww

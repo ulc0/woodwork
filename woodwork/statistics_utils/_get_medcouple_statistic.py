@@ -1,5 +1,5 @@
 import numpy as np
-import pandas as pd
+import pyspark.pandas as pd
 
 import woodwork as ww
 from woodwork.statistics_utils._medcouple_implementation import (

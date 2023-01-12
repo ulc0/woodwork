@@ -2,7 +2,7 @@ import copy
 from collections import OrderedDict
 from collections.abc import Hashable
 
-import pandas as pd
+import pyspark.pandas as pd
 
 import woodwork as ww
 from woodwork.column_schema import ColumnSchema

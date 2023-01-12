@@ -1,6 +1,6 @@
 import dataclasses
 
-import pandas as pd
+import pyspark.pandas as pd
 
 from woodwork.statistics_utils.frequency_inference._clean_timeseries import (
     _clean_timeseries,

@@ -2,7 +2,7 @@ import re
 from unittest.mock import patch
 
 import numpy as np
-import pandas as pd
+import pyspark.pandas as pd
 import pytest
 
 from woodwork.accessor_utils import (

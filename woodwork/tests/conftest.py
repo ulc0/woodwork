@@ -1,5 +1,5 @@
 import numpy as np
-import pandas as pd
+import pyspark.pandas as pd
 import pytest
 
 from woodwork.logical_types import (

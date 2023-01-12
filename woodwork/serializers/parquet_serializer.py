@@ -3,7 +3,7 @@ import os
 import warnings
 from pathlib import Path
 
-import pandas as pd
+import pyspark.pandask.pandas as pd
 
 from woodwork.accessor_utils import _is_dask_dataframe, _is_spark_dataframe
 from woodwork.exceptions import ParametersIgnoredWarning, WoodworkFileExistsError
