@@ -1,4 +1,4 @@
-import pyspark.pandas as pd
+import pandas as pd
 from pandas.api import types as pdtypes
 
 import woodwork as ww

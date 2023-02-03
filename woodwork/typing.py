@@ -1,6 +1,6 @@
 from typing import Dict, Hashable, Union
 
-import pyspark.pandas as pd
+import pandas as pd
 
 from woodwork.utils import import_or_none
 

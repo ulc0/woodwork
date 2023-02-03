@@ -1,4 +1,4 @@
-import pyspark.pandas as pd
+import pandas as pd
 
 
 def _clean_timeseries(observed_ts: pd.Series) -> pd.Series:

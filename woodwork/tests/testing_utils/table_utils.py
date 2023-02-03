@@ -1,5 +1,5 @@
 import numpy as np
-import pyspark.pandas as pd
+import pandas as pd
 
 from woodwork import accessor_utils
 from woodwork.utils import import_or_none

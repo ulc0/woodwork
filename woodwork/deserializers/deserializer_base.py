@@ -5,7 +5,7 @@ import warnings
 from itertools import zip_longest
 from pathlib import Path
 
-import pyspark.pandas as pd
+import pandas as pd
 
 import woodwork as ww
 from woodwork.exceptions import OutdatedSchemaWarning, UpgradeSchemaWarning

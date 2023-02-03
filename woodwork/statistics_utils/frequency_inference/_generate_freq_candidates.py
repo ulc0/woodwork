@@ -1,4 +1,4 @@
-import pyspark.pandas as pd
+import pandas as pd
 
 from woodwork.statistics_utils.frequency_inference._constants import (
     NON_INFERABLE_FREQ,

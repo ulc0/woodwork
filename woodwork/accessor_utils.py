@@ -1,7 +1,7 @@
 from functools import wraps
 
 import numpy as np
-import pyspark.pandas as pd
+import pandas as pd
 
 from woodwork.exceptions import ColumnNotPresentInSchemaError, WoodworkNotInitError
 from woodwork.utils import _get_column_logical_type, import_or_none

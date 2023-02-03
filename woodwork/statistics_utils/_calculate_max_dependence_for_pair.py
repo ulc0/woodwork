@@ -1,5 +1,5 @@
 import numpy as np
-import pyspark.pandas as pd
+import pandas as pd
 
 
 def _calculate_max_dependence_for_pair(result, min_shared, extra_stats):

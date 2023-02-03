@@ -1,7 +1,7 @@
 import sys
 
 import numpy as np
-import pyspark.pandas as pd
+import pandas as pd
 import pytest
 
 from woodwork.logical_types import Categorical, CountryCode, Double, Integer, Unknown

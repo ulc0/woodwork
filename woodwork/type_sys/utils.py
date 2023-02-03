@@ -1,4 +1,4 @@
-import pyspark.pandas as pd
+import pandas as pd
 from dateutil.parser import ParserError
 
 import woodwork as ww

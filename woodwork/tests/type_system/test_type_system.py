@@ -1,4 +1,4 @@
-import pyspark.pandas as pd
+import pandas as pd
 import pytest
 
 import woodwork as ww

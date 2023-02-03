@@ -1,7 +1,7 @@
 from collections import namedtuple
 
 import numpy as np
-import pyspark.pandas as pd
+import pandas as pd
 from scipy.stats import skew
 
 import woodwork as ww

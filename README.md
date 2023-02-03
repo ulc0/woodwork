@@ -49,7 +49,7 @@ python -m pip install "woodwork[updater]"
 Below is an example of using Woodwork. In this example, a sample dataset of order items is used to create a Woodwork `DataFrame`, specifying the `LogicalType` for five of the columns.
 
 ```python
-import pyspark.pandas as pd
+import pandas as pd
 import woodwork as ww
 
 df = pd.read_csv("https://oss.alteryx.com/datasets/online-retail-logs-2018-08-28.csv")

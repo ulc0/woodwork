@@ -5,7 +5,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 import boto3
-import pyspark.pandas as pd
+import pandas as pd
 import pyarrow as pa
 import pytest
 

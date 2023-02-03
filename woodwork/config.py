@@ -1,7 +1,7 @@
 import contextlib
 
 import numpy as np
-import pyspark.pandas as pd
+import pandas as pd
 
 CONFIG_DEFAULTS = {
     "categorical_threshold": 0.2,

@@ -1,4 +1,4 @@
-import pyspark.pandas as pd
+import pandas as pd
 
 from woodwork.serializers.serializer_base import Serializer
 

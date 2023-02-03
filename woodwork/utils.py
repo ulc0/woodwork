@@ -6,7 +6,7 @@ from mimetypes import add_type, guess_type
 from timeit import default_timer as timer
 
 import numpy as np
-import pyspark.pandas as pd
+import pandas as pd
 
 import woodwork as ww
 from woodwork.exceptions import TypeValidationError

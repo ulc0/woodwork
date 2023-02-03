@@ -3,7 +3,7 @@ from datetime import datetime
 from unittest.mock import patch
 
 import numpy as np
-import pyspark.pandas as pd
+import pandas as pd
 import pytest
 
 from woodwork.accessor_utils import _is_dask_series, _is_spark_series, init_series

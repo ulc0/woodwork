@@ -1,4 +1,4 @@
-import pyspark.pandas as pd
+import pandas as pd
 
 
 def _generate_estimated_timeseries(alias_dict):

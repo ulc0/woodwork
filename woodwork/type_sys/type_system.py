@@ -1,4 +1,4 @@
-import pyspark.pandas as pd
+import pandas as pd
 
 from woodwork.accessor_utils import _is_dask_series, _is_spark_series
 from woodwork.logical_types import (

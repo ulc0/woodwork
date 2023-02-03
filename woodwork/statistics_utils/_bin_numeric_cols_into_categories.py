@@ -1,4 +1,4 @@
-import pyspark.pandas as pd
+import pandas as pd
 
 
 def _bin_numeric_cols_into_categories(schema, data, num_bins):
