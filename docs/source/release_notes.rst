@@ -3,15 +3,23 @@
 Release Notes
 -------------
 
-.. Future Release
-  ==============
+Future Release
+==============
     * Enhancements
     * Fixes
     * Changes
+        * Pin for jupyter-client to 7.4.9 for documentation (:pr:`1624`)
+        * Remove jupyter-client documentation requirement (:pr:`1627`)
     * Documentation Changes
     * Testing Changes
+        * Add ruff for linting and replace isort/flake8 (:pr:`1614`)
+        * Specify black and ruff config arguments (:pr:`1620`)
+        * Add codecov token for unit tests workflow (:pr:`1630`)
+        * Add GitHub Actions cache to speed up workflows (:pr:`1631`)
+        * Add pull request check for linked issues to CI workflow (:pr:`1633`)
 
-.. Thanks to the following people for contributing to this release:
+    Thanks to the following people for contributing to this release:
+    :user:`gsheni`
 
 v0.21.2 January 11, 2023
 ========================
