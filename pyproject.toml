@@ -94,7 +94,7 @@ dev = [
     "woodwork[docs, dask, spark, test]",
 ]
 complete = [
-    "woodwork[dask, spark, updater]",
+    "woodwork[ spark, updater]",
 ]
 
 [tool.setuptools]

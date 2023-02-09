@@ -279,6 +279,8 @@ class Categorical(LogicalType):
         pass
 
 
+
+
 class CountryCode(LogicalType):
     """Represents Logical Types that use the ISO-3166 standard country code to represent countries.
     ISO 3166-1 (countries) are supported. These codes should be in the Alpha-2 format.
@@ -293,6 +295,13 @@ class CountryCode(LogicalType):
     primary_dtype = "category"
     pyspark_dtype = "string"
     standard_tags = {"category"}
+
+
+
+class Currency(LogicalType):
+    primary_dtype="float64"
+    pyspark_dtype="float64"
+    standard_tags={"dollars"}
 
 
 class CurrencyCode(LogicalType):
@@ -426,6 +435,25 @@ class Double(LogicalType):
             series = _coerce_numeric(series)
         return super().transform(series)
 
+
+
+
+class Lookup(LogicalType):
+    primary_dtype: "category"
+    pyspark_dtype: "string"
+    standard_tags ={"lookup","category"}
+    
+class Nlookup(LogicalType):
+    primary_dtype: "int64"
+    pyspark_dtype: "numeric"
+    standard_tags ={"lookup","category","numeric"}
+
+class Drg(LogicalType):
+    """Represents Logical Types that containDRGs."""
+    primary_dtype = "category"
+    pyspark_dtype = "string"
+    standard_tags = {"category", "drg"}
+   
 
 class Integer(LogicalType):
     """Represents Logical Types that contain positive and negative numbers
