@@ -36,12 +36,13 @@ keywords = ["data science", "machine learning", "typing"]
 license = {file = "LICENSE"}
 requires-python = ">=3.8,<4"
 dependencies = [
-    "pandas >= 1.4.0, != 1.4.2",
     "scikit-learn >= 0.22",
     "python-dateutil >= 2.8.1",
     "scipy >= 1.4.0",
     "importlib-resources >= 5.10.0",
-    "numpy >= 1.21.0",
+    "numpy >= 1.21.0, < 1.24.0",
+    "pyspark >= 3.2.0, <3.3.0",
+    "pandas >= 1.4.3"
 ]
 
 [project.urls]
@@ -94,7 +95,8 @@ dev = [
     "woodwork[docs, dask, spark, test]",
 ]
 complete = [
-    "woodwork[ spark, updater]",
+    "woodwork[spark]",
+    "woodwork[updater]",
 ]
 
 [tool.setuptools]
