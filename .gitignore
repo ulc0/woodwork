@@ -2,6 +2,7 @@ docs/source/generated/
 *.dirlock
 *.~lock*
 unpacked_sdist/
+*.whl
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
