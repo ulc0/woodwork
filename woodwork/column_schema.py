@@ -32,9 +32,11 @@ class ColumnSchema(object):
             logical_type (LogicalType, optional): The column's LogicalType.
             semantic_tags (str, list, set, optional): The semantic tag(s) specified for the column.
             use_standard_tags (boolean, optional): If True, will add standard semantic tags to the column based
-                    on the specified logical type if a logical type is defined for the column. Defaults to False.
+                    on the specified logical type if a logical type 
+                    is defined for the column. Defaults to False.
             description (str, optional): User description of the column.
-            origin (str, optional): Origin of the column (i.e. "base" or "engineered").
+            origin (str, optional): Origin of the column (i.e. "base" or 
+            "engineered").
             metadata (dict[str -> json serializable], optional): Extra metadata provided by the user. The dictionary must contain
                 data types that are JSON serializable such as string, integers, and floats. DataFrame and Series types are not supported.
             validate (bool, optional): Whether to perform parameter validation. Defaults to True.
